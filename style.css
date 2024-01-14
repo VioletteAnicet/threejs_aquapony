@@ -6,3 +6,41 @@ canvas{
     display: block;
 }
 
+#texte1{position: absolute;
+    top: 10%; /* Changer la valeur pour ajuster la position verticale */
+    left: 5%; /* Changer la valeur pour ajuster la position horizontale */
+    color: rgb(247, 162, 15);
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    z-index: 100;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#texte2{position: absolute;
+    top: 10%; /* Changer la valeur pour ajuster la position verticale */
+    left: 5%; /* Changer la valeur pour ajuster la position horizontale */
+    color: rgb(247, 15, 154);
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    z-index: 100;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#texte3{position: absolute;
+    top: 10%; /* Changer la valeur pour ajuster la position verticale */
+    left: 5%; /* Changer la valeur pour ajuster la position horizontale */
+    color: rgb(228, 247, 15);
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    z-index: 100;
+    visibility: hidden;
+    pointer-events: none;
+}
